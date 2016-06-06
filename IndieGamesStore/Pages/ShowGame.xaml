@@ -1,0 +1,31 @@
+﻿<Page x:Class="IndieGamesStore.Pages.ShowGame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:IndieGamesStore"
+      mc:Ignorable="d" 
+      d:DesignHeight="630" d:DesignWidth="800"
+      Title="ShowGame">
+
+    <Grid Background="#FF0056FF">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Name="gameTitle" HorizontalAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Black" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Name="gameDev" HorizontalAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Black" FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBlock Grid.Row="2" x:Name="gameDesc" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="18" HorizontalAlignment="Center"/>
+            <Button Grid.Row="3" Name="btnAddToLibrary" Click="btnAddToLibrary_Click"/>
+        </Grid>
+        <Image x:Name="gameImage" Grid.Column="0">
+        </Image>
+    </Grid>
+</Page>
