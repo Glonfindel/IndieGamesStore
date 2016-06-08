@@ -17,11 +17,11 @@
             <Label x:Name="lbTitleRegister" Content="Logowanie" FontSize="45" FontFamily="Segoe UI Black" Foreground="#E50071FF" HorizontalAlignment="Center"  Height="69" Margin="0,0,0,20"/>
             <StackPanel Orientation="Horizontal" Margin="204,0,233.6,0" Height="37">
                 <Label x:Name="lbLogin" Content="Login" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Segoe UI Black" FontSize="20" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Width="152"/>
-                <TextBox x:Name="txtBoxLogin" HorizontalAlignment="Center" Height="30" VerticalAlignment="Center" Width="200" FontSize="14" VerticalContentAlignment="Center" Text="Karol1995xD"/>
+                <TextBox x:Name="txtBoxLogin" HorizontalAlignment="Center" Height="30" VerticalAlignment="Center" Width="200" FontSize="14" VerticalContentAlignment="Center"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="204,0,233.6,0" Height="37">
                 <Label x:Name="lbPassword" Content="Hasło" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="20" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Width="152"/>
-                <PasswordBox x:Name="txtBoxPassword" HorizontalAlignment="Center" Height="30" VerticalAlignment="Center" Width="200" FontSize="14" VerticalContentAlignment="Center" Password="Karol1995!"/>
+                <PasswordBox x:Name="txtBoxPassword" HorizontalAlignment="Center" Height="30" VerticalAlignment="Center" Width="200" FontSize="14" VerticalContentAlignment="Center"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,30,0,0">
                 <Button x:Name="btnLogin" Content="Zaloguj" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Margin="-38,0,38,0" Height="50" FontFamily="Segoe UI Black" FontSize="20" Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Foreground="White" Click="btnLogin_Click"/>

@@ -19,7 +19,7 @@ namespace IndieGamesStore
         }
         public static bool ValidateDesc(string desc)
         {
-            if (desc.Length < 3 || desc.Length > 255)
+            if (desc.Length < 3 || desc.Length > 300)
                 return false;
 
             return true;
